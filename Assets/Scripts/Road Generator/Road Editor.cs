@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+// Press Enter to update the road mesh (after moving points)
+// Press Delete to delete the currently selected road point
+/// Press Ctrl+C to toggle whether the road is closed or open
+/// Press left mouse button to add a new road point at the preview position
+
+// Youll start the scene with nothing, just click on the ground, placing two points will generate the road mesh.
+
 public class RoadEditor : MonoBehaviour
 {
     [SerializeField] private RoadEditorSettings Settings;
