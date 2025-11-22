@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2315567900837128203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3745644184984411762}
+  - component: {fileID: 5328877672792187591}
+  m_Layer: 10
+  m_Name: Rotate Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3745644184984411762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2315567900837128203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7731035535048933875}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5328877672792187591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2315567900837128203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13e0a453fcc0a8438d239032e0586a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotateTransformGizmo
+  Settings:
+    GizmoThickness: 0.15
+    GizmoRadius: 5
+    ColliderThickness: 1
+    ColliderSegments: 15
+    XAxisColor: {r: 1, g: 0, b: 0, a: 1}
+    YAxisColor: {r: 0.0627451, g: 1, b: 0, a: 1}
+    ZAxisColor: {r: 0, g: 0.08627451, b: 1, a: 1}
+    HoverColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+    DraggedColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2497944021985273616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5412227391545703426}
+  - component: {fileID: 6716467818980775412}
+  m_Layer: 0
+  m_Name: GIzmo Drawer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5412227391545703426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2497944021985273616}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8769451657326072979}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6716467818980775412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2497944021985273616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac130048674b7d4b80aa11a446e60fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VisualObject
+  Settings:
+    VisualMaterial: {fileID: 2100000, guid: 851e91e8a3c2b8a41b5033826eb44f8b, type: 2}
+    OnTopMaterial: {fileID: 2100000, guid: 0983287beb74f4c4faea3ab315bde36c, type: 2}
+--- !u!1 &3771451276894763850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1534869744700519798}
+  - component: {fileID: 1629287577301522137}
+  m_Layer: 10
+  m_Name: Scale Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1534869744700519798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3771451276894763850}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7731035535048933875}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1629287577301522137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3771451276894763850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57eaae7bf4201e4c82dff9030440930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScaleTransformGizmo
+  Settings:
+    GizmoThickness: 0.1
+    GizmoSize: 5
+    ColliderThickness: 1
+    XAxisColor: {r: 1, g: 0, b: 0, a: 1}
+    YAxisColor: {r: 0.0627451, g: 1, b: 0, a: 1}
+    ZAxisColor: {r: 0, g: 0.08627451, b: 1, a: 1}
+    CenterColor: {r: 1, g: 1, b: 1, a: 1}
+    HoverColor: {r: 0.4627451, g: 0.4627451, b: 0.4627451, a: 1}
+    DraggedColor: {r: 1, g: 1, b: 1, a: 1}
+    Center: {fileID: 0}
+    XAxis: {fileID: 0}
+    YAxis: {fileID: 0}
+    ZAxis: {fileID: 0}
+--- !u!1 &5799357310742035290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4185731996887059335}
+  - component: {fileID: 8405342370411282111}
+  m_Layer: 10
+  m_Name: Move Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4185731996887059335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799357310742035290}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7731035535048933875}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8405342370411282111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799357310742035290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f69916c6e8fe248958f22903282a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoveTransformGizmo
+  Settings:
+    GizmoThickness: 0.1
+    GizmoSize: 5
+    ColliderThickness: 1
+    XAxisColor: {r: 1, g: 0, b: 0, a: 1}
+    YAxisColor: {r: 0.06170094, g: 1, b: 0, a: 1}
+    ZAxisColor: {r: 0, g: 0.08463931, b: 1, a: 1}
+    PlaneColor: {r: 1, g: 1, b: 1, a: 1}
+    CenterColor: {r: 1, g: 1, b: 1, a: 1}
+    HoverColor: {r: 0.4627451, g: 0.4627451, b: 0.4627451, a: 1}
+    DraggedColor: {r: 1, g: 1, b: 1, a: 1}
+    Center: {fileID: 0}
+    XAxis: {fileID: 0}
+    YAxis: {fileID: 0}
+    ZAxis: {fileID: 0}
+    XYPlane: {fileID: 0}
+    XZPlane: {fileID: 0}
+    YZPlane: {fileID: 0}
+--- !u!1 &6122625583807334810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8769451657326072979}
+  - component: {fileID: 3927652895707942636}
+  m_Layer: 0
+  m_Name: Global Gizmo Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8769451657326072979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6122625583807334810}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5412227391545703426}
+  - {fileID: 7731035535048933875}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3927652895707942636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6122625583807334810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81c772075bc82f48bf528f1683686f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WSWidget
+  References:
+    WSGizmos: {fileID: 6716467818980775412}
+    TransformGizmoManager: {fileID: 8545443446321963741}
+    GizmosCamera: {fileID: 0}
+    GizmosLayerIndex: 3
+    GizmosLayer:
+      serializedVersion: 2
+      m_Bits: 1032
+--- !u!1 &8414908975726782935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7731035535048933875}
+  - component: {fileID: 8545443446321963741}
+  m_Layer: 0
+  m_Name: Transform Gizmo Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7731035535048933875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8414908975726782935}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4185731996887059335}
+  - {fileID: 1534869744700519798}
+  - {fileID: 3745644184984411762}
+  m_Father: {fileID: 8769451657326072979}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8545443446321963741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8414908975726782935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90cb5c393a1371d46b7dd54f74e4997a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VisualTransform
+  MoveGizmo: {fileID: 8405342370411282111}
+  ScaleGizmo: {fileID: 1629287577301522137}
+  RotateGizmo: {fileID: 5328877672792187591}
+  GridSize: 1
+  RotationIncrement: 15
+  ScaleIncrement: 0.25
